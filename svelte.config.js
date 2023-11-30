@@ -26,6 +26,9 @@ const config = {
 		adapter: adapter({
 			precompress: true
 		})
+	},
+	serviceWorker: {
+		register: false
 	}
 };
 export default config;
